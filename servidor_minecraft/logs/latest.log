@@ -110,3 +110,8 @@
 [01Dec2024 22:51:36.069] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@66d1fc4e[id=244a29a3-9eb6-4e8e-829a-d0f6c14fdc43,name=J31SS0N,properties={textures=[com.mojang.authlib.properties.Property@7e1cdc67]},legacy=false] (/100.120.231.79:63559) lost connection: Disconnected
 [01Dec2024 22:54:23.909] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dargnelx lost connection: Disconnected
 [01Dec2024 22:54:23.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx left the game
+[01Dec2024 23:00:52.561] [User Authenticator #6/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player J31SS0N is 244a29a3-9eb6-4e8e-829a-d0f6c14fdc43
+[01Dec2024 23:00:52.746] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@334b648a[id=244a29a3-9eb6-4e8e-829a-d0f6c14fdc43,name=J31SS0N,properties={textures=[com.mojang.authlib.properties.Property@610710be]},legacy=false] (/100.120.231.79:64416) lost connection: Disconnected
+[01Dec2024 23:06:25.129] [User Authenticator #7/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player J31SS0N is 244a29a3-9eb6-4e8e-829a-d0f6c14fdc43
+[01Dec2024 23:06:26.666] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: J31SS0N[/100.120.231.79:64728] logged in with entity id 3232 at (1.9841088193595309, 59.5, -2.5382990040166327)
+[01Dec2024 23:06:26.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N joined the game
