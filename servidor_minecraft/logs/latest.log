@@ -1,178 +1,196 @@
-[30Nov2024 22:10:32.221] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[30Nov2024 22:10:32.224] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[30Nov2024 22:10:32.319] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[30Nov2024 22:10:32.359] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/mxsv3/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[30Nov2024 22:10:32.514] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mxsv3/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.0/fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[30Nov2024 22:10:32.541] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mxsv3/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.0/javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[30Nov2024 22:10:32.543] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mxsv3/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.0/lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[30Nov2024 22:10:32.544] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mxsv3/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.0/mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[30Nov2024 22:10:32.618] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[30Nov2024 22:10:33.990] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[30Nov2024 22:10:40.090] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
-[30Nov2024 22:10:40.093] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
-[30Nov2024 22:10:40.793] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[30Nov2024 22:10:41.256] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
-[30Nov2024 22:10:41.737] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[30Nov2024 22:10:42.293] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/mxsv3/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/assets/.mcassetsroot' uses unexpected schema
-[30Nov2024 22:10:42.294] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/mxsv3/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/data/.mcassetsroot' uses unexpected schema
-[30Nov2024 22:10:42.326] [main/INFO] [net.minecraft.server.packs.repository.FolderRepositorySource/]: Found non-pack entry './world/datapacks/Skyblock Classic Edition Hardcore', ignoring
-[30Nov2024 22:10:42.326] [main/INFO] [net.minecraft.server.packs.repository.FolderRepositorySource/]: Found non-pack entry './world/datapacks/Skyblock Classic Edition Structures', ignoring
-[30Nov2024 22:10:43.500] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/versions/changelog/Changelog.url, ignoring
-[30Nov2024 22:10:43.502] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/versions/changelog/Github.url, ignoring
-[30Nov2024 22:10:43.504] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/map.png, ignoring
-[30Nov2024 22:10:43.504] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/Icons/Logo.png, ignoring
-[30Nov2024 22:10:43.506] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/Icons/translation_pack.png, ignoring
-[30Nov2024 22:10:43.509] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/Icons/icon.png, ignoring
-[30Nov2024 22:10:43.511] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/Icons/icon_hardcore.png, ignoring
-[30Nov2024 22:10:43.515] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/Icons/test_pack.png, ignoring
-[30Nov2024 22:10:43.515] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/Icons/Original.png, ignoring
-[30Nov2024 22:10:43.516] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/Icons/icon_structures.png, ignoring
-[30Nov2024 22:10:43.516] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/map_0.dat, ignoring
-[30Nov2024 22:10:43.517] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/story/65110991051011101163267105116121.png, ignoring
-[30Nov2024 22:10:43.518] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/level data/level.dat_old, ignoring
-[30Nov2024 22:10:43.518] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/level data/map.png, ignoring
-[30Nov2024 22:10:43.520] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/level data/level.dat, ignoring
-[30Nov2024 22:10:43.521] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/level data/map_0.dat, ignoring
-[30Nov2024 22:10:43.522] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/level data/session.lock, ignoring
-[30Nov2024 22:10:44.110] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[30Nov2024 22:10:44.112] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function skyblock:skyblock_setup
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 51: Incorrect argument for command at position 9: gamerule <--[HERE]
-	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 51: Incorrect argument for command at position 9: gamerule <--[HERE]
-	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23101!/:?]
-	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23101!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 6 more
-[30Nov2024 22:10:44.115] [main/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:tick as it is missing following references: skyblock:skyblock_setup (from file/Skyblock Classic Edition)
-[30Nov2024 22:10:44.239] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[30Nov2024 22:10:44.647] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[30Nov2024 22:10:44.648] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[30Nov2024 22:10:44.648] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[30Nov2024 22:10:44.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[30Nov2024 22:10:44.730] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[30Nov2024 22:10:44.769] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[30Nov2024 22:10:44.904] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[30Nov2024 22:10:45.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[30Nov2024 22:10:47.336] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Nov2024 22:10:47.338] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Nov2024 22:10:47.339] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Nov2024 22:10:47.340] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Nov2024 22:10:47.341] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Nov2024 22:10:47.627] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[30Nov2024 22:10:48.129] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
-[30Nov2024 22:10:48.190] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3064 ms
-[30Nov2024 22:10:48.191] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.325s)! For help, type "help"
-[30Nov2024 22:10:48.214] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[30Nov2024 22:10:55.691] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Dargnelx is 96f5f93e-5126-48d7-b0a7-43e3b0edf622
-[30Nov2024 22:10:57.275] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dargnelx[/100.88.100.53:55763] logged in with entity id 3 at (6.583752483762337, 63.875, 1.7538830013884794)
-[30Nov2024 22:10:57.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx joined the game
-[30Nov2024 22:11:02.343] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity SnowGolem['Olaf'/2, l='ServerLevel[Skyblock Classic Edition]', x=186.35, y=-129.61, z=184.50] died: Olaf fell out of the world
-[30Nov2024 22:11:03.363] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player J31SS0N is 244a29a3-9eb6-4e8e-829a-d0f6c14fdc43
-[30Nov2024 22:11:03.427] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Cat['Cat'/5, l='ServerLevel[Skyblock Classic Edition]', x=-176.98, y=-196.01, z=-176.44] died: Cat fell out of the world
-[30Nov2024 22:11:04.755] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: J31SS0N[/100.120.231.79:51166] logged in with entity id 248 at (13.643226093730554, 63.0, 6.732305397455423)
-[30Nov2024 22:11:04.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N joined the game
-[30Nov2024 22:11:05.923] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Witch['Witch'/4, l='ServerLevel[Skyblock Classic Edition]', x=-174.41, y=-378.66, z=-176.01] died: Witch fell out of the world
-[30Nov2024 22:11:08.579] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Wolf['Wolf'/40, l='ServerLevel[Skyblock Classic Edition]', x=493.54, y=-161.86, z=356.58] died: Wolf fell out of the world
-[30Nov2024 22:11:08.580] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Wolf['Wolf'/42, l='ServerLevel[Skyblock Classic Edition]', x=491.31, y=-161.86, z=357.48] died: Wolf fell out of the world
-[30Nov2024 22:11:08.725] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/9, l='ServerLevel[Skyblock Classic Edition]', x=462.89, y=-266.29, z=352.70] died, message: 'Villager fell out of the world'
-[30Nov2024 22:11:08.727] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Villager'/9, l='ServerLevel[Skyblock Classic Edition]', x=462.89, y=-266.29, z=352.70] died: Villager fell out of the world
-[30Nov2024 22:11:08.728] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Cat['Cat'/21, l='ServerLevel[Skyblock Classic Edition]', x=469.74, y=-196.55, z=385.49] died: Cat fell out of the world
-[30Nov2024 22:11:08.729] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Cat['Cat'/16, l='ServerLevel[Skyblock Classic Edition]', x=466.08, y=-195.17, z=374.30] died: Cat fell out of the world
-[30Nov2024 22:11:08.730] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Cat['Cat'/18, l='ServerLevel[Skyblock Classic Edition]', x=466.70, y=-195.17, z=374.70] died: Cat fell out of the world
-[30Nov2024 22:11:08.730] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Cat['Cat'/19, l='ServerLevel[Skyblock Classic Edition]', x=474.39, y=-196.55, z=373.30] died: Cat fell out of the world
-[30Nov2024 22:11:08.731] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Cat['Cat'/20, l='ServerLevel[Skyblock Classic Edition]', x=475.53, y=-195.55, z=373.67] died: Cat fell out of the world
-[30Nov2024 22:11:09.077] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Cat['Cat'/34, l='ServerLevel[Skyblock Classic Edition]', x=481.49, y=-198.08, z=360.50] died: Cat fell out of the world
-[30Nov2024 22:11:09.174] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/62, l='ServerLevel[Skyblock Classic Edition]', x=81.88, y=-268.91, z=-477.37] died: Husk fell out of the world
-[30Nov2024 22:11:09.175] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/63, l='ServerLevel[Skyblock Classic Edition]', x=78.57, y=-268.91, z=-477.47] died: Husk fell out of the world
-[30Nov2024 22:11:09.381] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Cat['Cat'/67, l='ServerLevel[Skyblock Classic Edition]', x=488.55, y=-197.09, z=385.44] died: Cat fell out of the world
-[30Nov2024 22:11:09.476] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/61, l='ServerLevel[Skyblock Classic Edition]', x=81.95, y=-268.91, z=-481.22] died: Husk fell out of the world
-[30Nov2024 22:11:09.725] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/22, l='ServerLevel[Skyblock Classic Edition]', x=468.91, y=-267.29, z=384.37] died, message: 'Villager fell out of the world'
-[30Nov2024 22:11:09.725] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Villager'/22, l='ServerLevel[Skyblock Classic Edition]', x=468.91, y=-267.29, z=384.37] died: Villager fell out of the world
-[30Nov2024 22:11:09.726] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/15, l='ServerLevel[Skyblock Classic Edition]', x=465.40, y=-267.29, z=375.26] died, message: 'Villager fell out of the world'
-[30Nov2024 22:11:09.727] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Villager'/15, l='ServerLevel[Skyblock Classic Edition]', x=465.40, y=-267.29, z=375.26] died: Villager fell out of the world
-[30Nov2024 22:11:09.727] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/17, l='ServerLevel[Skyblock Classic Edition]', x=474.44, y=-267.29, z=375.64] died, message: 'Villager fell out of the world'
-[30Nov2024 22:11:09.728] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Villager'/17, l='ServerLevel[Skyblock Classic Edition]', x=474.44, y=-267.29, z=375.64] died: Villager fell out of the world
-[30Nov2024 22:11:09.774] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/23, l='ServerLevel[Skyblock Classic Edition]', x=474.87, y=-268.92, z=384.60] died, message: 'Villager fell out of the world'
-[30Nov2024 22:11:09.776] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Villager'/23, l='ServerLevel[Skyblock Classic Edition]', x=474.87, y=-268.92, z=384.60] died: Villager fell out of the world
-[30Nov2024 22:11:09.877] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/225, l='ServerLevel[Skyblock Classic Edition]', x=81.52, y=-267.29, z=-491.78] died: Husk fell out of the world
-[30Nov2024 22:11:09.885] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/227, l='ServerLevel[Skyblock Classic Edition]', x=81.58, y=-267.29, z=-487.51] died: Husk fell out of the world
-[30Nov2024 22:11:09.886] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/115, l='ServerLevel[Skyblock Classic Edition]', x=75.00, y=-267.29, z=-494.70] died: Husk fell out of the world
-[30Nov2024 22:11:09.886] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/116, l='ServerLevel[Skyblock Classic Edition]', x=75.70, y=-267.29, z=-494.30] died: Husk fell out of the world
-[30Nov2024 22:11:09.887] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/117, l='ServerLevel[Skyblock Classic Edition]', x=75.70, y=-267.29, z=-495.33] died: Husk fell out of the world
-[30Nov2024 22:11:09.888] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/118, l='ServerLevel[Skyblock Classic Edition]', x=69.45, y=-266.29, z=-480.51] died: Husk fell out of the world
-[30Nov2024 22:11:09.888] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/119, l='ServerLevel[Skyblock Classic Edition]', x=71.51, y=-267.29, z=-482.50] died: Husk fell out of the world
-[30Nov2024 22:11:09.889] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/120, l='ServerLevel[Skyblock Classic Edition]', x=67.61, y=-266.29, z=-488.14] died: Husk fell out of the world
-[30Nov2024 22:11:09.890] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/121, l='ServerLevel[Skyblock Classic Edition]', x=68.54, y=-267.29, z=-482.50] died: Husk fell out of the world
-[30Nov2024 22:11:09.890] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/122, l='ServerLevel[Skyblock Classic Edition]', x=77.83, y=-267.29, z=-493.48] died: Husk fell out of the world
-[30Nov2024 22:11:09.891] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/123, l='ServerLevel[Skyblock Classic Edition]', x=79.15, y=-267.29, z=-490.12] died: Husk fell out of the world
-[30Nov2024 22:11:09.892] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/124, l='ServerLevel[Skyblock Classic Edition]', x=79.50, y=-267.29, z=-483.95] died: Husk fell out of the world
-[30Nov2024 22:11:09.925] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/105, l='ServerLevel[Skyblock Classic Edition]', x=63.54, y=-266.91, z=-486.91] died: Husk fell out of the world
-[30Nov2024 22:11:09.926] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/136, l='ServerLevel[Skyblock Classic Edition]', x=75.52, y=-266.91, z=-490.00] died: Husk fell out of the world
-[30Nov2024 22:11:09.980] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/125, l='ServerLevel[Skyblock Classic Edition]', x=70.44, y=-269.52, z=-488.91] died: Husk fell out of the world
-[30Nov2024 22:11:09.982] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/127, l='ServerLevel[Skyblock Classic Edition]', x=71.75, y=-266.52, z=-487.30] died: Husk fell out of the world
-[30Nov2024 22:11:09.985] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/131, l='ServerLevel[Skyblock Classic Edition]', x=72.52, y=-266.52, z=-487.30] died: Husk fell out of the world
-[30Nov2024 22:11:09.985] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/132, l='ServerLevel[Skyblock Classic Edition]', x=67.51, y=-269.52, z=-486.73] died: Husk fell out of the world
-[30Nov2024 22:11:10.027] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/126, l='ServerLevel[Skyblock Classic Edition]', x=71.01, y=-269.15, z=-489.47] died: Husk fell out of the world
-[30Nov2024 22:11:10.029] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/128, l='ServerLevel[Skyblock Classic Edition]', x=69.16, y=-268.15, z=-488.50] died: Husk fell out of the world
-[30Nov2024 22:11:10.030] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/129, l='ServerLevel[Skyblock Classic Edition]', x=69.84, y=-268.15, z=-488.40] died: Husk fell out of the world
-[30Nov2024 22:11:10.030] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/130, l='ServerLevel[Skyblock Classic Edition]', x=73.78, y=-268.15, z=-488.50] died: Husk fell out of the world
-[30Nov2024 22:11:10.034] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/64, l='ServerLevel[Skyblock Classic Edition]', x=487.54, y=-266.29, z=387.63] died, message: 'Villager fell out of the world'
-[30Nov2024 22:11:10.036] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Villager'/64, l='ServerLevel[Skyblock Classic Edition]', x=487.54, y=-266.29, z=387.63] died: Villager fell out of the world
-[30Nov2024 22:11:10.036] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity WanderingTrader['Wandering Trader'/65, l='ServerLevel[Skyblock Classic Edition]', x=489.55, y=-267.04, z=384.50] died: Wandering Trader fell out of the world
-[30Nov2024 22:11:10.037] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/66, l='ServerLevel[Skyblock Classic Edition]', x=490.68, y=-266.29, z=384.46] died, message: 'Villager fell out of the world'
-[30Nov2024 22:11:10.037] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Villager'/66, l='ServerLevel[Skyblock Classic Edition]', x=490.68, y=-266.29, z=384.46] died: Villager fell out of the world
-[30Nov2024 22:11:10.038] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/36, l='ServerLevel[Skyblock Classic Edition]', x=490.95, y=-267.29, z=357.30] died, message: 'Villager fell out of the world'
-[30Nov2024 22:11:10.039] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Villager'/36, l='ServerLevel[Skyblock Classic Edition]', x=490.95, y=-267.29, z=357.30] died: Villager fell out of the world
-[30Nov2024 22:11:10.039] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/37, l='ServerLevel[Skyblock Classic Edition]', x=490.30, y=-267.29, z=357.70] died, message: 'Villager fell out of the world'
-[30Nov2024 22:11:10.040] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Villager'/37, l='ServerLevel[Skyblock Classic Edition]', x=490.30, y=-267.29, z=357.70] died: Villager fell out of the world
-[30Nov2024 22:11:10.040] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/38, l='ServerLevel[Skyblock Classic Edition]', x=491.92, y=-267.29, z=364.48] died, message: 'Villager fell out of the world'
-[30Nov2024 22:11:10.041] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Villager'/38, l='ServerLevel[Skyblock Classic Edition]', x=491.92, y=-267.29, z=364.48] died: Villager fell out of the world
-[30Nov2024 22:11:10.043] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Frog['Frog'/78, l='ServerLevel[Skyblock Classic Edition]', x=-55.17, y=-195.55, z=509.43] died: Frog fell out of the world
-[30Nov2024 22:11:10.076] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/39, l='ServerLevel[Skyblock Classic Edition]', x=482.95, y=-268.92, z=360.21] died, message: 'Villager fell out of the world'
-[30Nov2024 22:11:10.077] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Villager'/39, l='ServerLevel[Skyblock Classic Edition]', x=482.95, y=-268.92, z=360.21] died: Villager fell out of the world
-[30Nov2024 22:11:10.079] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Frog['Frog'/79, l='ServerLevel[Skyblock Classic Edition]', x=-55.11, y=-198.01, z=510.33] died: Frog fell out of the world
-[30Nov2024 22:11:10.225] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Horse['Horse'/11, l='ServerLevel[Skyblock Classic Edition]', x=472.05, y=-302.68, z=356.97] died: Horse fell out of the world
-[30Nov2024 22:11:10.226] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Horse['Horse'/13, l='ServerLevel[Skyblock Classic Edition]', x=473.10, y=-302.68, z=359.68] died: Horse fell out of the world
-[30Nov2024 22:11:10.226] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Horse['Horse'/14, l='ServerLevel[Skyblock Classic Edition]', x=471.56, y=-302.68, z=359.65] died: Horse fell out of the world
-[30Nov2024 22:11:10.727] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Horse['Horse'/10, l='ServerLevel[Skyblock Classic Edition]', x=475.65, y=-339.58, z=357.70] died: Horse fell out of the world
-[30Nov2024 22:11:10.729] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Horse['Horse'/12, l='ServerLevel[Skyblock Classic Edition]', x=473.81, y=-339.58, z=358.21] died: Horse fell out of the world
-[30Nov2024 22:11:11.024] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pillager['Pillager'/84, l='ServerLevel[Skyblock Classic Edition]', x=507.50, y=-267.29, z=75.52] died: Pillager fell out of the world
-[30Nov2024 22:11:11.176] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pillager['Pillager'/87, l='ServerLevel[Skyblock Classic Edition]', x=509.20, y=-267.65, z=72.30] died: Pillager fell out of the world
-[30Nov2024 22:11:11.525] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pillager['Pillager'/81, l='ServerLevel[Skyblock Classic Edition]', x=506.77, y=-303.68, z=75.11] died: Pillager fell out of the world
-[30Nov2024 22:11:11.525] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pillager['Pillager'/82, l='ServerLevel[Skyblock Classic Edition]', x=509.62, y=-303.68, z=73.30] died: Pillager fell out of the world
-[30Nov2024 22:11:11.526] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pillager['Pillager'/83, l='ServerLevel[Skyblock Classic Edition]', x=506.83, y=-303.68, z=75.81] died: Pillager fell out of the world
-[30Nov2024 22:11:11.575] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Camel['Camel'/133, l='ServerLevel[Skyblock Classic Edition]', x=75.89, y=-380.65, z=-490.84] died: Camel fell out of the world
-[30Nov2024 22:11:11.575] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Camel['Camel'/134, l='ServerLevel[Skyblock Classic Edition]', x=68.00, y=-380.65, z=-486.59] died: Camel fell out of the world
-[30Nov2024 22:11:11.576] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Camel['Camel'/135, l='ServerLevel[Skyblock Classic Edition]', x=66.85, y=-380.65, z=-488.31] died: Camel fell out of the world
-[30Nov2024 22:11:11.577] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Camel['Camel'/206, l='ServerLevel[Skyblock Classic Edition]', x=71.50, y=-379.93, z=-488.50] died: Camel fell out of the world
-[30Nov2024 22:11:11.577] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Camel['Camel'/207, l='ServerLevel[Skyblock Classic Edition]', x=71.50, y=-379.93, z=-488.50] died: Camel fell out of the world
-[30Nov2024 22:11:11.627] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pillager['Pillager'/88, l='ServerLevel[Skyblock Classic Edition]', x=508.95, y=-306.02, z=73.93] died: Pillager fell out of the world
-[30Nov2024 22:11:11.627] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pillager['Pillager'/91, l='ServerLevel[Skyblock Classic Edition]', x=508.32, y=-306.02, z=73.33] died: Pillager fell out of the world
-[30Nov2024 22:11:11.675] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pillager['Pillager'/89, l='ServerLevel[Skyblock Classic Edition]', x=510.15, y=-305.70, z=77.63] died: Pillager fell out of the world
-[30Nov2024 22:11:16.820] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pillager['Pillager'/242, l='ServerLevel[Skyblock Classic Edition]', x=512.24, y=-267.29, z=77.43] died: Pillager fell out of the world
-[30Nov2024 22:11:17.318] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pillager['Pillager'/241, l='ServerLevel[Skyblock Classic Edition]', x=513.49, y=-303.68, z=76.17] died: Pillager fell out of the world
-[30Nov2024 22:11:17.319] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pillager['Pillager'/243, l='ServerLevel[Skyblock Classic Edition]', x=512.22, y=-303.68, z=72.83] died: Pillager fell out of the world
-[30Nov2024 22:11:20.018] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity IronGolem['Iron-man'/35, l='ServerLevel[Skyblock Classic Edition]', x=491.30, y=-1036.19, z=354.44] died: Iron-man fell out of the world
-[30Nov2024 22:13:36.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell out of the world
-[30Nov2024 22:14:56.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell out of the world
-[30Nov2024 22:15:47.218] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dargnelx lost connection: Disconnected
-[30Nov2024 22:15:47.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx left the game
-[30Nov2024 22:15:55.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[30Nov2024 22:15:55.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[30Nov2024 22:15:55.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[30Nov2024 22:15:55.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[30Nov2024 22:15:56.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Skyblock Classic Edition]'/minecraft:overworld
-[30Nov2024 22:15:57.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Skyblock Classic Edition]'/minecraft:the_nether
-[30Nov2024 22:15:57.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Skyblock Classic Edition]'/minecraft:the_end
-[30Nov2024 22:15:57.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[30Nov2024 22:15:57.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[30Nov2024 22:15:57.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[30Nov2024 22:15:57.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01Dec2024 00:29:53.479] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/667, l='ServerLevel[Skyblock Classic Edition]', x=68.49, y=-266.29, z=-488.41] died: Husk fell out of the world
+[01Dec2024 00:30:46.285] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/1715, l='ServerLevel[Skyblock Classic Edition]', x=69.52, y=-267.29, z=-493.04] died: Husk fell out of the world
+[01Dec2024 00:32:59.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N fell out of the world
+[01Dec2024 00:35:07.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell out of the world
+[01Dec2024 00:39:20.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N tried to swim in lava
+[01Dec2024 00:43:11.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell out of the world
+[01Dec2024 00:46:41.719] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/1727, l='ServerLevel[Skyblock Classic Edition]', x=79.64, y=-267.29, z=-491.79] died: Husk fell out of the world
+[01Dec2024 00:46:43.371] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/1728, l='ServerLevel[Skyblock Classic Edition]', x=79.85, y=-267.29, z=-491.60] died: Husk fell out of the world
+[01Dec2024 00:46:45.420] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/1718, l='ServerLevel[Skyblock Classic Edition]', x=79.30, y=-267.29, z=-492.51] died: Husk fell out of the world
+[01Dec2024 00:47:18.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N has made the advancement [Getting an Upgrade]
+[01Dec2024 00:47:53.119] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/1714, l='ServerLevel[Skyblock Classic Edition]', x=79.85, y=-267.29, z=-491.32] died: Husk fell out of the world
+[01Dec2024 00:48:20.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell out of the world
+[01Dec2024 00:50:26.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N was slain by Husk
+[01Dec2024 00:50:29.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx was slain by Husk
+[01Dec2024 00:52:54.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N was shot by Skeleton
+[01Dec2024 00:52:56.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell out of the world
+[01Dec2024 00:54:42.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell out of the world
+[01Dec2024 00:55:51.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N was shot by Skeleton
+[01Dec2024 00:57:10.080] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Camel['Camel'/3646, l='ServerLevel[Skyblock Classic Edition]', x=70.09, y=59.00, z=-487.88] died: Camel was blown up by Creeper
+[01Dec2024 00:57:21.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx was slain by Husk
+[01Dec2024 00:58:06.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N fell out of the world
+[01Dec2024 00:59:47.072] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/3653, l='ServerLevel[Skyblock Classic Edition]', x=66.39, y=59.00, z=-485.94] died: Husk was shot by Skeleton
+[01Dec2024 01:00:05.905] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/3644, l='ServerLevel[Skyblock Classic Edition]', x=62.57, y=63.00, z=-470.51] died: Husk was slain by Dargnelx
+[01Dec2024 01:00:05.906] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/3655, l='ServerLevel[Skyblock Classic Edition]', x=62.18, y=63.00, z=-470.80] died: Husk was slain by Dargnelx
+[01Dec2024 01:00:11.218] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/3642, l='ServerLevel[Skyblock Classic Edition]', x=66.02, y=-161.90, z=-469.13] died: Husk fell out of the world
+[01Dec2024 01:00:18.071] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/3656, l='ServerLevel[Skyblock Classic Edition]', x=66.68, y=-161.90, z=-471.70] died: Husk fell out of the world
+[01Dec2024 01:00:18.918] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/3643, l='ServerLevel[Skyblock Classic Edition]', x=62.71, y=63.00, z=-470.49] died: Husk was slain by Dargnelx
+[01Dec2024 01:00:21.469] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/3657, l='ServerLevel[Skyblock Classic Edition]', x=64.66, y=-196.93, z=-469.71] died: Husk fell out of the world
+[01Dec2024 01:00:21.668] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/3640, l='ServerLevel[Skyblock Classic Edition]', x=65.96, y=-231.86, z=-472.51] died: Husk fell out of the world
+[01Dec2024 01:00:28.505] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/3652, l='ServerLevel[Skyblock Classic Edition]', x=62.98, y=63.00, z=-470.53] died: Husk was slain by Dargnelx
+[01Dec2024 01:00:52.456] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/3645, l='ServerLevel[Skyblock Classic Edition]', x=76.02, y=64.00, z=-483.32] died: Husk was slain by Dargnelx
+[01Dec2024 01:00:55.169] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/3641, l='ServerLevel[Skyblock Classic Edition]', x=75.10, y=64.00, z=-479.37] died: Husk was slain by Dargnelx
+[01Dec2024 01:01:05.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N has made the advancement [Monster Hunter]
+[01Dec2024 01:02:49.143] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/3671, l='ServerLevel[Skyblock Classic Edition]', x=68.70, y=51.00, z=-489.44] died: Husk was slain by J31SS0N
+[01Dec2024 01:03:10.123] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/3675, l='ServerLevel[Skyblock Classic Edition]', x=68.70, y=51.90, z=-488.90] died: Husk was slain by J31SS0N
+[01Dec2024 01:03:16.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx was doomed to fall by Creeper
+[01Dec2024 01:03:16.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N was shot by Skeleton
+[01Dec2024 01:04:58.571] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4701, l='ServerLevel[Skyblock Classic Edition]', x=67.27, y=-267.29, z=-483.79] died: Husk fell out of the world
+[01Dec2024 01:05:18.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N fell out of the world
+[01Dec2024 01:05:50.577] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Camel['Camel'/4707, l='ServerLevel[Skyblock Classic Edition]', x=66.15, y=59.00, z=-490.85] died: Camel suffocated in a wall
+[01Dec2024 01:06:02.523] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4689, l='ServerLevel[Skyblock Classic Edition]', x=68.30, y=-233.08, z=-486.30] died: Husk fell out of the world
+[01Dec2024 01:06:04.770] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4715, l='ServerLevel[Skyblock Classic Edition]', x=68.29, y=-268.91, z=-486.30] died: Husk fell out of the world
+[01Dec2024 01:06:20.671] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4714, l='ServerLevel[Skyblock Classic Edition]', x=68.70, y=-267.29, z=-488.70] died: Husk fell out of the world
+[01Dec2024 01:08:18.222] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4682, l='ServerLevel[Skyblock Classic Edition]', x=81.48, y=-266.29, z=-488.33] died: Husk fell out of the world
+[01Dec2024 01:08:32.422] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4716, l='ServerLevel[Skyblock Classic Edition]', x=68.41, y=-267.29, z=-488.48] died: Husk fell out of the world
+[01Dec2024 01:09:48.217] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4670, l='ServerLevel[Skyblock Classic Edition]', x=81.46, y=-267.29, z=-494.77] died: Husk fell out of the world
+[01Dec2024 01:09:48.968] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4673, l='ServerLevel[Skyblock Classic Edition]', x=81.32, y=-267.29, z=-495.88] died: Husk fell out of the world
+[01Dec2024 01:09:49.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx was slain by Husk
+[01Dec2024 01:09:49.719] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4687, l='ServerLevel[Skyblock Classic Edition]', x=81.70, y=-267.29, z=-495.44] died: Husk fell out of the world
+[01Dec2024 01:09:51.848] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4680, l='ServerLevel[Skyblock Classic Edition]', x=81.70, y=-267.29, z=-495.70] died: Husk fell out of the world
+[01Dec2024 01:10:03.128] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4663, l='ServerLevel[Skyblock Classic Edition]', x=84.91, y=-162.56, z=-491.14] died: Husk fell out of the world
+[01Dec2024 01:10:06.475] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4684, l='ServerLevel[Skyblock Classic Edition]', x=79.30, y=-267.29, z=-492.01] died: Husk fell out of the world
+[01Dec2024 01:10:11.926] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4705, l='ServerLevel[Skyblock Classic Edition]', x=63.01, y=-267.29, z=-487.59] died: Husk fell out of the world
+[01Dec2024 01:10:12.443] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4662, l='ServerLevel[Skyblock Classic Edition]', x=83.50, y=47.25, z=-492.15] died: Husk was slain by J31SS0N
+[01Dec2024 01:11:09.904] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4671, l='ServerLevel[Skyblock Classic Edition]', x=80.41, y=46.00, z=-494.41] died: Husk was slain by J31SS0N
+[01Dec2024 01:11:19.373] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4674, l='ServerLevel[Skyblock Classic Edition]', x=81.30, y=-128.61, z=-494.44] died: Husk didn't want to live in the same world as J31SS0N
+[01Dec2024 01:11:40.195] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4672, l='ServerLevel[Skyblock Classic Edition]', x=80.07, y=46.00, z=-494.53] died: Husk was slain by J31SS0N
+[01Dec2024 01:12:18.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N was slain by Husk
+[01Dec2024 01:12:22.750] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4675, l='ServerLevel[Skyblock Classic Edition]', x=81.70, y=46.00, z=-490.30] died: Husk was slain by Dargnelx
+[01Dec2024 01:13:00.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx was slain by Enderman
+[01Dec2024 01:14:24.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx didn't want to live in the same world as Skeleton
+[01Dec2024 01:15:11.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N fell out of the world
+[01Dec2024 01:19:50.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx was shot by Skeleton
+[01Dec2024 01:21:01.954] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4681, l='ServerLevel[Skyblock Classic Edition]', x=79.50, y=46.00, z=-490.27] died: Husk was slain by J31SS0N
+[01Dec2024 01:21:15.750] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4683, l='ServerLevel[Skyblock Classic Edition]', x=79.48, y=46.00, z=-490.13] died: Husk was slain by J31SS0N
+[01Dec2024 01:21:16.250] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4685, l='ServerLevel[Skyblock Classic Edition]', x=79.70, y=46.00, z=-490.18] died: Husk was slain by J31SS0N
+[01Dec2024 01:21:20.568] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4686, l='ServerLevel[Skyblock Classic Edition]', x=79.49, y=46.00, z=-490.19] died: Husk was slain by J31SS0N
+[01Dec2024 01:24:30.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell out of the world
+[01Dec2024 01:42:29.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx burned to death
+[01Dec2024 01:49:05.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx tried to swim in lava
+[01Dec2024 01:49:37.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dargnelx: Set own game mode to Creative Mode]
+[01Dec2024 01:49:54.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dargnelx: Set own game mode to Survival Mode]
+[01Dec2024 01:54:45.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N burned to death
+[01Dec2024 02:06:59.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell from a high place
+[01Dec2024 02:07:06.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N fell from a high place
+[01Dec2024 02:07:37.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N fell out of the world
+[01Dec2024 02:07:50.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dargnelx: Set own game mode to Creative Mode]
+[01Dec2024 02:08:02.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dargnelx: Set own game mode to Survival Mode]
+[01Dec2024 02:11:47.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx was slain by J31SS0N
+[01Dec2024 02:21:24.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx tried to swim in lava
+[01Dec2024 02:26:09.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx was shot by Skeleton
+[01Dec2024 02:26:15.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N was shot by Skeleton
+[01Dec2024 02:29:09.881] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4669, l='ServerLevel[Skyblock Classic Edition]', x=68.65, y=47.00, z=-480.31] died: Husk was slain by Dargnelx
+[01Dec2024 02:29:21.175] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Husk['Husk'/4668, l='ServerLevel[Skyblock Classic Edition]', x=69.18, y=47.00, z=-480.38] died: Husk was slain by Dargnelx
+[01Dec2024 02:36:28.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N tried to swim in lava
+[01Dec2024 02:37:11.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx tried to swim in lava
+[01Dec2024 02:37:25.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell out of the world
+[01Dec2024 02:39:59.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dargnelx: Set own game mode to Creative Mode]
+[01Dec2024 02:43:51.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dargnelx: Set own game mode to Survival Mode]
+[01Dec2024 02:44:35.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N was slain by Dargnelx
+[01Dec2024 02:46:33.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dargnelx: Set own game mode to Creative Mode]
+[01Dec2024 02:47:16.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dargnelx: Set own game mode to Survival Mode]
+[01Dec2024 03:07:21.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell out of the world
+[01Dec2024 03:09:31.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell out of the world
+[01Dec2024 03:10:10.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /advancement (grant|revoke)
+[01Dec2024 03:10:10.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /attribute <target> <attribute> (get|base|modifier)
+[01Dec2024 03:10:10.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[01Dec2024 03:10:10.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /bossbar (add|remove|list|set|get)
+[01Dec2024 03:10:10.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clear [<targets>]
+[01Dec2024 03:10:10.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clone (<begin>|from)
+[01Dec2024 03:10:10.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /damage <target> <amount> [<damageType>]
+[01Dec2024 03:10:10.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /data (merge|get|remove|modify)
+[01Dec2024 03:10:10.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /datapack (enable|disable|list)
+[01Dec2024 03:10:10.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /debug (start|stop|function)
+[01Dec2024 03:10:10.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /defaultgamemode <gamemode>
+[01Dec2024 03:10:10.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /difficulty [peaceful|easy|normal|hard]
+[01Dec2024 03:10:10.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /effect (clear|give)
+[01Dec2024 03:10:10.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /me <action>
+[01Dec2024 03:10:10.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /enchant <targets> <enchantment> [<level>]
+[01Dec2024 03:10:10.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /experience (add|set|query)
+[01Dec2024 03:10:10.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /xp -> experience
+[01Dec2024 03:10:10.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
+[01Dec2024 03:10:10.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fillbiome <from> <to> <biome> [replace]
+[01Dec2024 03:10:10.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forceload (add|remove|query)
+[01Dec2024 03:10:10.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /function <name>
+[01Dec2024 03:10:10.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamemode <gamemode> [<target>]
+[01Dec2024 03:10:10.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersSleepingPercentage|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
+[01Dec2024 03:10:10.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /give <targets> <item> [<count>]
+[01Dec2024 03:10:10.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /help [<command>]
+[01Dec2024 03:10:10.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /item (replace|modify)
+[01Dec2024 03:10:10.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kick <targets> [<reason>]
+[01Dec2024 03:10:10.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kill [<targets>]
+[01Dec2024 03:10:10.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /list [uuids]
+[01Dec2024 03:10:10.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /locate (structure|biome|poi)
+[01Dec2024 03:10:10.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /loot (replace|insert|give|spawn)
+[01Dec2024 03:10:10.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /msg <targets> <message>
+[01Dec2024 03:10:10.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tell -> msg
+[01Dec2024 03:10:10.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /w -> msg
+[01Dec2024 03:10:10.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /particle <name> [<pos>]
+[01Dec2024 03:10:10.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /place (feature|jigsaw|structure|template)
+[01Dec2024 03:10:10.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
+[01Dec2024 03:10:10.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /reload
+[01Dec2024 03:10:10.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /recipe (give|take)
+[01Dec2024 03:10:10.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /return <value>
+[01Dec2024 03:10:10.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ride <target> (mount|dismount)
+[01Dec2024 03:10:10.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /say <message>
+[01Dec2024 03:10:10.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /schedule (function|clear)
+[01Dec2024 03:10:10.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /scoreboard (objectives|players)
+[01Dec2024 03:10:10.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /seed
+[01Dec2024 03:10:10.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setblock <pos> <block> [destroy|keep|replace]
+[01Dec2024 03:10:10.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spawnpoint [<targets>]
+[01Dec2024 03:10:10.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setworldspawn [<pos>]
+[01Dec2024 03:10:10.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spectate [<target>]
+[01Dec2024 03:10:10.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[01Dec2024 03:10:10.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[01Dec2024 03:10:10.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /summon <entity> [<pos>]
+[01Dec2024 03:10:10.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tag <targets> (add|remove|list)
+[01Dec2024 03:10:10.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /team (list|add|remove|empty|join|leave|modify)
+[01Dec2024 03:10:10.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teammsg <message>
+[01Dec2024 03:10:10.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tm -> teammsg
+[01Dec2024 03:10:10.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teleport (<location>|<destination>|<targets>)
+[01Dec2024 03:10:10.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tp -> teleport
+[01Dec2024 03:10:10.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tellraw <targets> <message>
+[01Dec2024 03:10:10.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /time (set|add|query)
+[01Dec2024 03:10:10.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[01Dec2024 03:10:10.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /trigger <objective> [add|set]
+[01Dec2024 03:10:10.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /weather (clear|rain|thunder)
+[01Dec2024 03:10:10.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /worldborder (add|set|center|damage|get|warning)
+[01Dec2024 03:10:10.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /jfr (start|stop)
+[01Dec2024 03:10:10.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban-ip <target> [<reason>]
+[01Dec2024 03:10:10.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /banlist [ips|players]
+[01Dec2024 03:10:10.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban <targets> [<reason>]
+[01Dec2024 03:10:10.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /deop <targets>
+[01Dec2024 03:10:10.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /op <targets>
+[01Dec2024 03:10:10.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon <targets>
+[01Dec2024 03:10:10.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon-ip <target>
+[01Dec2024 03:10:10.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /perf (start|stop)
+[01Dec2024 03:10:10.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-all [flush]
+[01Dec2024 03:10:10.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-off
+[01Dec2024 03:10:10.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-on
+[01Dec2024 03:10:10.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setidletimeout <minutes>
+[01Dec2024 03:10:10.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stop
+[01Dec2024 03:10:10.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /whitelist (on|off|list|add|remove|reload)
+[01Dec2024 03:10:10.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forge (tps|track|entity|generate|dimensions|mods|tags)
+[01Dec2024 03:10:10.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /config showfile <mod> <type>
+[01Dec2024 03:13:17.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell out of the world
+[01Dec2024 03:13:33.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N fell out of the world
+[01Dec2024 03:28:25.224] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: J31SS0N lost connection: Disconnected
+[01Dec2024 03:28:25.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N left the game
+[01Dec2024 03:33:36.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx was shot by Skeleton
+[01Dec2024 03:50:45.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell from a high place
+[01Dec2024 03:55:53.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx tried to swim in lava
+[01Dec2024 04:00:20.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx was doomed to fall by Skeleton
+[01Dec2024 04:00:40.864] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dargnelx lost connection: Disconnected
+[01Dec2024 04:00:40.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx left the game
+[01Dec2024 04:01:09.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[01Dec2024 04:01:09.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01Dec2024 04:01:09.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01Dec2024 04:01:09.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01Dec2024 04:01:09.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Skyblock Classic Edition]'/minecraft:overworld
+[01Dec2024 04:01:09.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Skyblock Classic Edition]'/minecraft:the_nether
+[01Dec2024 04:01:09.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Skyblock Classic Edition]'/minecraft:the_end
+[01Dec2024 04:01:09.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01Dec2024 04:01:09.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01Dec2024 04:01:09.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01Dec2024 04:01:09.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
