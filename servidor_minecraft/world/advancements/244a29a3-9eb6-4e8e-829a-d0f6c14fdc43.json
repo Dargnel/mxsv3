@@ -7040,6 +7040,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-12-01 01:01:05 +0000",
+      "minecraft:spider": "2024-12-01 23:10:04 +0000",
       "minecraft:husk": "2024-12-01 01:02:49 +0000"
     },
     "done": false
@@ -7052,6 +7053,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "bread": "2024-12-01 23:08:26 +0000",
       "rotten_flesh": "2024-12-01 01:26:22 +0000"
     },
     "done": false

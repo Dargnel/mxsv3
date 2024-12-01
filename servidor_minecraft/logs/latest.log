@@ -115,3 +115,20 @@
 [01Dec2024 23:06:25.129] [User Authenticator #7/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player J31SS0N is 244a29a3-9eb6-4e8e-829a-d0f6c14fdc43
 [01Dec2024 23:06:26.666] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: J31SS0N[/100.120.231.79:64728] logged in with entity id 3232 at (1.9841088193595309, 59.5, -2.5382990040166327)
 [01Dec2024 23:06:26.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N joined the game
+[01Dec2024 23:09:45.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N was slain by Spider
+[01Dec2024 23:10:31.059] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: J31SS0N lost connection: Disconnected
+[01Dec2024 23:10:31.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N left the game
+[01Dec2024 23:14:58.764] [User Authenticator #8/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player J31SS0N is 244a29a3-9eb6-4e8e-829a-d0f6c14fdc43
+[01Dec2024 23:15:00.267] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: J31SS0N[/100.120.231.79:65084] logged in with entity id 3538 at (-0.699999988079071, 63.0, 8.699999988079071)
+[01Dec2024 23:15:00.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N joined the game
+[01Dec2024 23:16:34.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[01Dec2024 23:16:34.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01Dec2024 23:16:34.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01Dec2024 23:16:34.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01Dec2024 23:16:34.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Skyblock Classic Edition]'/minecraft:overworld
+[01Dec2024 23:16:34.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Skyblock Classic Edition]'/minecraft:the_end
+[01Dec2024 23:16:34.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Skyblock Classic Edition]'/minecraft:the_nether
+[01Dec2024 23:16:34.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01Dec2024 23:16:34.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01Dec2024 23:16:34.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01Dec2024 23:16:34.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
