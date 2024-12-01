@@ -98,3 +98,15 @@
 [01Dec2024 22:10:13.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell from a high place
 [01Dec2024 22:24:10.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx tried to swim in lava
 [01Dec2024 22:30:58.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell from a high place
+[01Dec2024 22:41:43.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx has made the advancement [A Seedy Place]
+[01Dec2024 22:46:39.714] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: J31SS0N lost connection: Disconnected
+[01Dec2024 22:46:39.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N left the game
+[01Dec2024 22:48:00.073] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player J31SS0N is 244a29a3-9eb6-4e8e-829a-d0f6c14fdc43
+[01Dec2024 22:48:01.584] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: J31SS0N[/100.120.231.79:63251] logged in with entity id 3121 at (1.415937990096242, 59.5, -2.7729719252604945)
+[01Dec2024 22:48:01.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N joined the game
+[01Dec2024 22:48:16.363] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: J31SS0N lost connection: Disconnected
+[01Dec2024 22:48:16.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N left the game
+[01Dec2024 22:51:35.870] [User Authenticator #5/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player J31SS0N is 244a29a3-9eb6-4e8e-829a-d0f6c14fdc43
+[01Dec2024 22:51:36.069] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@66d1fc4e[id=244a29a3-9eb6-4e8e-829a-d0f6c14fdc43,name=J31SS0N,properties={textures=[com.mojang.authlib.properties.Property@7e1cdc67]},legacy=false] (/100.120.231.79:63559) lost connection: Disconnected
+[01Dec2024 22:54:23.909] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dargnelx lost connection: Disconnected
+[01Dec2024 22:54:23.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx left the game
