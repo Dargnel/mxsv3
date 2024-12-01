@@ -75,3 +75,7 @@
 [01Dec2024 21:19:54.752] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Dargnelx is 96f5f93e-5126-48d7-b0a7-43e3b0edf622
 [01Dec2024 21:19:55.981] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dargnelx[/100.88.100.53:53371] logged in with entity id 27 at (0.2585106156300497, 63.0, -5.617433092372512)
 [01Dec2024 21:19:55.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx joined the game
+[01Dec2024 21:27:10.948] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[01Dec2024 21:30:23.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx tried to swim in lava
+[01Dec2024 21:31:34.518] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity IronGolem['Iron-man'/84, l='ServerLevel[Skyblock Classic Edition]', x=488.11, y=-1036.19, z=353.67] died: Iron-man fell out of the world
+[01Dec2024 21:32:29.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx was shot by Skeleton
