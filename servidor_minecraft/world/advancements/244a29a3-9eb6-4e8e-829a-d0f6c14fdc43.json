@@ -7064,5 +7064,17 @@
     },
     "done": true
   },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "beetroots": "2024-12-02 00:03:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-12-02 00:31:39 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

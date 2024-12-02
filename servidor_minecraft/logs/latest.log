@@ -1,134 +1,43 @@
-[01Dec2024 21:17:12.377] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[01Dec2024 21:17:12.389] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[01Dec2024 21:17:12.660] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[01Dec2024 21:17:12.833] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/mxsv3/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[01Dec2024 21:17:13.711] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mxsv3/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.0/fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
-[01Dec2024 21:17:13.735] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mxsv3/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.0/javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[01Dec2024 21:17:13.742] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mxsv3/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.0/lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[01Dec2024 21:17:13.759] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mxsv3/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.0/mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
-[01Dec2024 21:17:14.074] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[01Dec2024 21:17:18.005] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[01Dec2024 21:17:38.675] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
-[01Dec2024 21:17:38.679] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
-[01Dec2024 21:17:40.722] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[01Dec2024 21:17:42.044] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
-[01Dec2024 21:17:44.069] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01Dec2024 21:17:45.730] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/mxsv3/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/assets/.mcassetsroot' uses unexpected schema
-[01Dec2024 21:17:45.731] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/mxsv3/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/data/.mcassetsroot' uses unexpected schema
-[01Dec2024 21:17:45.955] [main/INFO] [net.minecraft.server.packs.repository.FolderRepositorySource/]: Found non-pack entry './world/datapacks/Skyblock Classic Edition Hardcore', ignoring
-[01Dec2024 21:17:45.956] [main/INFO] [net.minecraft.server.packs.repository.FolderRepositorySource/]: Found non-pack entry './world/datapacks/Skyblock Classic Edition Structures', ignoring
-[01Dec2024 21:17:50.791] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/versions/changelog/Changelog.url, ignoring
-[01Dec2024 21:17:50.797] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/versions/changelog/Github.url, ignoring
-[01Dec2024 21:17:50.801] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/map.png, ignoring
-[01Dec2024 21:17:50.802] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/Icons/Logo.png, ignoring
-[01Dec2024 21:17:50.803] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/Icons/translation_pack.png, ignoring
-[01Dec2024 21:17:50.804] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/Icons/icon.png, ignoring
-[01Dec2024 21:17:50.805] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/Icons/icon_hardcore.png, ignoring
-[01Dec2024 21:17:50.805] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/Icons/test_pack.png, ignoring
-[01Dec2024 21:17:50.806] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/Icons/Original.png, ignoring
-[01Dec2024 21:17:50.806] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/Icons/icon_structures.png, ignoring
-[01Dec2024 21:17:50.811] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/map_0.dat, ignoring
-[01Dec2024 21:17:50.813] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/story/65110991051011101163267105116121.png, ignoring
-[01Dec2024 21:17:50.814] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/level data/level.dat_old, ignoring
-[01Dec2024 21:17:50.817] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/level data/map.png, ignoring
-[01Dec2024 21:17:50.818] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/level data/level.dat, ignoring
-[01Dec2024 21:17:50.819] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/level data/map_0.dat, ignoring
-[01Dec2024 21:17:50.823] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Invalid path in pack: skyblock:functions/misc/Media/level data/session.lock, ignoring
-[01Dec2024 21:17:51.537] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[01Dec2024 21:17:51.979] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[01Dec2024 21:17:53.337] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[01Dec2024 21:17:53.337] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[01Dec2024 21:17:53.339] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[01Dec2024 21:17:53.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[01Dec2024 21:17:53.777] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[01Dec2024 21:17:53.854] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[01Dec2024 21:17:54.276] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[01Dec2024 21:17:54.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[01Dec2024 21:18:02.453] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 21:18:02.476] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 21:18:02.488] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 21:18:02.496] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 21:18:02.510] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 21:18:02.517] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 21:18:02.630] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 21:18:02.640] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 21:18:02.646] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 21:18:02.654] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 21:18:02.656] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 21:18:02.668] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 21:18:02.675] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 21:18:02.680] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 21:18:02.684] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 21:18:02.687] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 21:18:02.900] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 21:18:03.400] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 21:18:03.904] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 21:18:04.399] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 21:18:04.907] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 21:18:05.398] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 21:18:06.715] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11818 ms
-[01Dec2024 21:18:06.717] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.639s)! For help, type "help"
-[01Dec2024 21:18:06.789] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[01Dec2024 21:19:45.562] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player J31SS0N is 244a29a3-9eb6-4e8e-829a-d0f6c14fdc43
-[01Dec2024 21:19:47.411] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: J31SS0N[/100.120.231.79:56838] logged in with entity id 19 at (-1.1053461275609737, 64.0, -3.9064914927405328)
-[01Dec2024 21:19:47.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N joined the game
-[01Dec2024 21:19:54.752] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Dargnelx is 96f5f93e-5126-48d7-b0a7-43e3b0edf622
-[01Dec2024 21:19:55.981] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dargnelx[/100.88.100.53:53371] logged in with entity id 27 at (0.2585106156300497, 63.0, -5.617433092372512)
-[01Dec2024 21:19:55.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx joined the game
-[01Dec2024 21:27:10.948] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[01Dec2024 21:30:23.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx tried to swim in lava
-[01Dec2024 21:31:34.518] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity IronGolem['Iron-man'/84, l='ServerLevel[Skyblock Classic Edition]', x=488.11, y=-1036.19, z=353.67] died: Iron-man fell out of the world
-[01Dec2024 21:32:29.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx was shot by Skeleton
-[01Dec2024 21:40:45.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N fell out of the world
-[01Dec2024 21:47:54.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N was doomed to fall by Skeleton
-[01Dec2024 21:48:25.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N fell out of the world
-[01Dec2024 21:50:50.663] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: J31SS0N lost connection: Disconnected
-[01Dec2024 21:50:50.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N left the game
-[01Dec2024 21:50:50.709] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[01Dec2024 21:50:53.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx was doomed to fall by Skeleton
-[01Dec2024 21:54:19.616] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player J31SS0N is 244a29a3-9eb6-4e8e-829a-d0f6c14fdc43
-[01Dec2024 21:54:21.035] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: J31SS0N[/100.120.231.79:60778] logged in with entity id 1468 at (4.090753232497208, 63.0, 2.216849692647715)
-[01Dec2024 21:54:21.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N joined the game
-[01Dec2024 21:57:26.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx tried to swim in lava
-[01Dec2024 21:59:39.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx was doomed to fall by Skeleton
-[01Dec2024 22:03:19.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N fell out of the world
-[01Dec2024 22:05:21.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell out of the world
-[01Dec2024 22:05:47.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell out of the world
-[01Dec2024 22:06:00.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell out of the world
-[01Dec2024 22:10:13.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell from a high place
-[01Dec2024 22:24:10.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx tried to swim in lava
-[01Dec2024 22:30:58.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell from a high place
-[01Dec2024 22:41:43.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx has made the advancement [A Seedy Place]
-[01Dec2024 22:46:39.714] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: J31SS0N lost connection: Disconnected
-[01Dec2024 22:46:39.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N left the game
-[01Dec2024 22:48:00.073] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player J31SS0N is 244a29a3-9eb6-4e8e-829a-d0f6c14fdc43
-[01Dec2024 22:48:01.584] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: J31SS0N[/100.120.231.79:63251] logged in with entity id 3121 at (1.415937990096242, 59.5, -2.7729719252604945)
-[01Dec2024 22:48:01.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N joined the game
-[01Dec2024 22:48:16.363] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: J31SS0N lost connection: Disconnected
-[01Dec2024 22:48:16.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N left the game
-[01Dec2024 22:51:35.870] [User Authenticator #5/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player J31SS0N is 244a29a3-9eb6-4e8e-829a-d0f6c14fdc43
-[01Dec2024 22:51:36.069] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@66d1fc4e[id=244a29a3-9eb6-4e8e-829a-d0f6c14fdc43,name=J31SS0N,properties={textures=[com.mojang.authlib.properties.Property@7e1cdc67]},legacy=false] (/100.120.231.79:63559) lost connection: Disconnected
-[01Dec2024 22:54:23.909] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dargnelx lost connection: Disconnected
-[01Dec2024 22:54:23.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx left the game
-[01Dec2024 23:00:52.561] [User Authenticator #6/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player J31SS0N is 244a29a3-9eb6-4e8e-829a-d0f6c14fdc43
-[01Dec2024 23:00:52.746] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@334b648a[id=244a29a3-9eb6-4e8e-829a-d0f6c14fdc43,name=J31SS0N,properties={textures=[com.mojang.authlib.properties.Property@610710be]},legacy=false] (/100.120.231.79:64416) lost connection: Disconnected
-[01Dec2024 23:06:25.129] [User Authenticator #7/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player J31SS0N is 244a29a3-9eb6-4e8e-829a-d0f6c14fdc43
-[01Dec2024 23:06:26.666] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: J31SS0N[/100.120.231.79:64728] logged in with entity id 3232 at (1.9841088193595309, 59.5, -2.5382990040166327)
-[01Dec2024 23:06:26.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N joined the game
-[01Dec2024 23:09:45.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N was slain by Spider
-[01Dec2024 23:10:31.059] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: J31SS0N lost connection: Disconnected
-[01Dec2024 23:10:31.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N left the game
-[01Dec2024 23:14:58.764] [User Authenticator #8/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player J31SS0N is 244a29a3-9eb6-4e8e-829a-d0f6c14fdc43
-[01Dec2024 23:15:00.267] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: J31SS0N[/100.120.231.79:65084] logged in with entity id 3538 at (-0.699999988079071, 63.0, 8.699999988079071)
-[01Dec2024 23:15:00.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N joined the game
-[01Dec2024 23:16:34.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[01Dec2024 23:16:34.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[01Dec2024 23:16:34.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[01Dec2024 23:16:34.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[01Dec2024 23:16:34.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Skyblock Classic Edition]'/minecraft:overworld
-[01Dec2024 23:16:34.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Skyblock Classic Edition]'/minecraft:the_end
-[01Dec2024 23:16:34.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Skyblock Classic Edition]'/minecraft:the_nether
-[01Dec2024 23:16:34.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01Dec2024 23:16:34.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01Dec2024 23:16:34.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01Dec2024 23:16:34.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02Dec2024 00:00:32.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell out of the world
+[02Dec2024 00:02:43.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N fell out of the world
+[02Dec2024 00:03:36.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N has made the advancement [A Seedy Place]
+[02Dec2024 00:10:44.014] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity IronGolem['Iron-man'/544, l='ServerLevel[Skyblock Classic Edition]', x=486.03, y=-1035.61, z=362.23] died: Iron-man fell out of the world
+[02Dec2024 00:21:45.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N fell out of the world
+[02Dec2024 00:21:46.311] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/550, l='ServerLevel[Skyblock Classic Edition]', x=486.99, y=-201.66, z=350.36] died, message: 'Villager fell out of the world'
+[02Dec2024 00:21:46.312] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Villager'/550, l='ServerLevel[Skyblock Classic Edition]', x=486.99, y=-201.66, z=350.36] died: Villager fell out of the world
+[02Dec2024 00:26:50.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell out of the world
+[02Dec2024 00:29:04.864] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of J31SS0N) moved wrongly! 0.25296277774356213
+[02Dec2024 00:31:39.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N has made the advancement [Sweet Dreams]
+[02Dec2024 00:31:40.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx has made the advancement [Sweet Dreams]
+[02Dec2024 00:42:02.168] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Cat['Cat'/543, l='ServerLevel[Skyblock Classic Edition]', x=496.29, y=-198.47, z=346.89] died: Cat fell out of the world
+[02Dec2024 00:45:44.262] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Wolf['Wolf'/553, l='ServerLevel[Skyblock Classic Edition]', x=488.11, y=-162.57, z=349.31] died: Wolf fell out of the world
+[02Dec2024 01:03:56.715] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: J31SS0N lost connection: Disconnected
+[02Dec2024 01:03:56.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N left the game
+[02Dec2024 01:03:57.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell out of the world
+[02Dec2024 01:07:22.154] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Horse['Horse'/2209, l='ServerLevel[Skyblock Classic Edition]', x=475.26, y=47.00, z=358.21] died: Horse suffocated in a wall
+[02Dec2024 01:07:24.155] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Horse['Horse'/2213, l='ServerLevel[Skyblock Classic Edition]', x=473.82, y=47.00, z=358.32] died: Horse suffocated in a wall
+[02Dec2024 01:09:00.655] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Wolf['Wolf'/2220, l='ServerLevel[Skyblock Classic Edition]', x=493.20, y=-161.50, z=361.67] died: Wolf fell out of the world
+[02Dec2024 01:09:05.752] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Wolf['Wolf'/2232, l='ServerLevel[Skyblock Classic Edition]', x=492.54, y=-161.50, z=360.37] died: Wolf fell out of the world
+[02Dec2024 01:11:47.651] [User Authenticator #7/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player J31SS0N is 244a29a3-9eb6-4e8e-829a-d0f6c14fdc43
+[02Dec2024 01:11:49.148] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: J31SS0N[/100.120.231.79:63343] logged in with entity id 2313 at (491.69999998807907, 46.0, 354.2892506557938)
+[02Dec2024 01:11:49.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N joined the game
+[02Dec2024 01:23:10.009] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Horse['Horse'/2214, l='ServerLevel[Skyblock Classic Edition]', x=475.32, y=47.00, z=357.30] died: Horse suffocated in a wall
+[02Dec2024 01:23:12.508] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Horse['Horse'/2210, l='ServerLevel[Skyblock Classic Edition]', x=473.63, y=47.00, z=356.32] died: Horse suffocated in a wall
+[02Dec2024 01:24:00.911] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: J31SS0N lost connection: Disconnected
+[02Dec2024 01:24:00.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N left the game
+[02Dec2024 01:46:51.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx fell out of the world
+[02Dec2024 02:13:53.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx tried to swim in lava
+[02Dec2024 02:30:47.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx tried to swim in lava
+[02Dec2024 02:41:46.557] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dargnelx lost connection: Disconnected
+[02Dec2024 02:41:46.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx left the game
+[02Dec2024 02:42:23.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[02Dec2024 02:42:23.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[02Dec2024 02:42:23.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[02Dec2024 02:42:23.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[02Dec2024 02:42:23.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Skyblock Classic Edition]'/minecraft:overworld
+[02Dec2024 02:42:23.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Skyblock Classic Edition]'/minecraft:the_nether
+[02Dec2024 02:42:23.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Skyblock Classic Edition]'/minecraft:the_end
+[02Dec2024 02:42:23.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02Dec2024 02:42:23.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02Dec2024 02:42:23.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02Dec2024 02:42:23.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
