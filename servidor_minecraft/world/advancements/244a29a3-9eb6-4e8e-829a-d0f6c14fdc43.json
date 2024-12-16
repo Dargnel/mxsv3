@@ -7043,7 +7043,8 @@
     "criteria": {
       "minecraft:skeleton": "2024-12-01 01:01:05 +0000",
       "minecraft:spider": "2024-12-01 23:10:04 +0000",
-      "minecraft:husk": "2024-12-01 01:02:49 +0000"
+      "minecraft:husk": "2024-12-01 01:02:49 +0000",
+      "minecraft:zombie": "2024-12-16 01:35:30 +0000"
     },
     "done": false
   },
