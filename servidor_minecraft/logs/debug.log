@@ -817,3 +817,8 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [16Dec2024 01:15:22.156] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Skyblock Classic Edition
 [16Dec2024 01:17:37.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx has made the advancement [What a Deal!]
 [16Dec2024 01:19:50.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx tried to swim in lava
+[16Dec2024 01:20:22.134] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Skyblock Classic Edition
+[16Dec2024 01:20:22.139] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Skyblock Classic Edition
+[16Dec2024 01:22:42.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N fell out of the world
+[16Dec2024 01:25:22.150] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Skyblock Classic Edition
+[16Dec2024 01:25:22.155] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Skyblock Classic Edition
