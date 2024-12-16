@@ -807,3 +807,13 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [16Dec2024 01:02:05.177] [Server thread/DEBUG] [cpw.mods.inventorysorter.InventorySorter/]: Action slot InventoryMapping{i=net.minecraft.world.CompoundContainer@794fc2c, c=net.minecraft.world.inventory.ChestMenu@fda4d5, b=0, e=53}
 [16Dec2024 01:05:22.240] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Skyblock Classic Edition
 [16Dec2024 01:05:22.261] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Skyblock Classic Edition
+[16Dec2024 01:10:03.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N drowned
+[16Dec2024 01:10:22.148] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Skyblock Classic Edition
+[16Dec2024 01:10:22.154] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Skyblock Classic Edition
+[16Dec2024 01:12:24.051] [Server thread/DEBUG] [cpw.mods.inventorysorter.InventorySorter/]: Got action SORT slot 40
+[16Dec2024 01:12:24.051] [Server thread/DEBUG] [cpw.mods.inventorysorter.InventorySorter/]: Slot mapping {[]=InventoryMapping{i=[], c=net.minecraft.world.inventory.ChestMenu@4f80cf8a, b=81, e=89}, net.minecraft.world.CompoundContainer@54a9d7e0=InventoryMapping{i=net.minecraft.world.CompoundContainer@54a9d7e0, c=net.minecraft.world.inventory.ChestMenu@4f80cf8a, b=0, e=53}, []=InventoryMapping{i=[], c=net.minecraft.world.inventory.ChestMenu@4f80cf8a, b=54, e=80}}
+[16Dec2024 01:12:24.051] [Server thread/DEBUG] [cpw.mods.inventorysorter.InventorySorter/]: Action slot InventoryMapping{i=net.minecraft.world.CompoundContainer@54a9d7e0, c=net.minecraft.world.inventory.ChestMenu@4f80cf8a, b=0, e=53}
+[16Dec2024 01:15:22.147] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Skyblock Classic Edition
+[16Dec2024 01:15:22.156] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Skyblock Classic Edition
+[16Dec2024 01:17:37.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx has made the advancement [What a Deal!]
+[16Dec2024 01:19:50.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx tried to swim in lava
