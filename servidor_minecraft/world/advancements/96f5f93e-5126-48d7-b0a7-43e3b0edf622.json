@@ -347,6 +347,7 @@
       "minecraft:spider": "2024-11-30 23:53:25 +0000",
       "minecraft:creeper": "2024-12-01 01:18:37 +0000",
       "minecraft:husk": "2024-12-01 01:00:05 +0000",
+      "minecraft:ender_dragon": "2024-12-16 02:22:19 +0000",
       "minecraft:silverfish": "2024-12-16 01:26:57 +0000",
       "minecraft:zombie": "2024-11-30 23:53:56 +0000"
     },
@@ -1009,6 +1010,12 @@
     },
     "done": true
   },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2024-12-16 02:22:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stone_brick_wall": {
     "criteria": {
       "has_stone_bricks": "2024-12-16 02:00:51 +0000"
@@ -1144,6 +1151,12 @@
   "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
     "criteria": {
       "has_mossy_cobblestone": "2024-12-16 01:36:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2024-12-16 02:24:38 +0000"
     },
     "done": true
   },

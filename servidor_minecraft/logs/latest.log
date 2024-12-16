@@ -116,3 +116,22 @@
 [16Dec2024 02:16:52.236] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dargnelx moved too quickly! -622.0841507637269,0.27602975247834394,-705.96299845309
 [16Dec2024 02:18:04.016] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Endermite['Fix End'/3444, l='ServerLevel[Skyblock Classic Edition]', x=0.50, y=70.00, z=0.50] died: Fix End was slain by J31SS0N
 [16Dec2024 02:18:07.017] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Endermite['Fix End'/3445, l='ServerLevel[Skyblock Classic Edition]', x=0.50, y=70.00, z=0.50] died: Fix End was slain by J31SS0N
+[16Dec2024 02:22:19.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx has made the advancement [Free the End]
+[16Dec2024 02:24:38.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx has completed the challenge [Cover Me in Debris]
+[16Dec2024 02:24:51.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dargnelx: Set own game mode to Survival Mode]
+[16Dec2024 02:25:38.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx was slain by Enderman
+[16Dec2024 02:25:51.458] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: J31SS0N lost connection: Disconnected
+[16Dec2024 02:25:51.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N left the game
+[16Dec2024 02:25:55.036] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dargnelx lost connection: Disconnected
+[16Dec2024 02:25:55.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx left the game
+[16Dec2024 02:26:57.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[16Dec2024 02:26:57.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[16Dec2024 02:26:57.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[16Dec2024 02:26:57.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[16Dec2024 02:26:57.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Skyblock Classic Edition]'/minecraft:overworld
+[16Dec2024 02:26:58.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Skyblock Classic Edition]'/minecraft:the_nether
+[16Dec2024 02:26:58.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Skyblock Classic Edition]'/minecraft:the_end
+[16Dec2024 02:26:58.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16Dec2024 02:26:58.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16Dec2024 02:26:58.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16Dec2024 02:26:58.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
