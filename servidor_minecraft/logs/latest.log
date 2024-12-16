@@ -81,3 +81,6 @@
 [16Dec2024 00:36:38.099] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9569ms or 191 ticks behind
 [16Dec2024 00:36:55.384] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2304ms or 46 ticks behind
 [16Dec2024 00:37:37.272] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Wolf['Wolf'/68, l='ServerLevel[Skyblock Classic Edition]', x=494.70, y=46.40, z=352.34] died: Wolf tried to swim in lava to escape J31SS0N
+[16Dec2024 00:39:06.882] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[16Dec2024 00:39:22.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N fell out of the world
+[16Dec2024 00:41:04.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx tried to swim in lava
