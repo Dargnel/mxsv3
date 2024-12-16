@@ -970,3 +970,22 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [16Dec2024 02:10:07.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N has made the advancement [Take Aim]
 [16Dec2024 02:10:22.128] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Skyblock Classic Edition
 [16Dec2024 02:10:22.133] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Skyblock Classic Edition
+[16Dec2024 02:10:52.421] [Server thread/DEBUG] [cpw.mods.inventorysorter.InventorySorter/]: Got action SORT slot 14
+[16Dec2024 02:10:52.421] [Server thread/DEBUG] [cpw.mods.inventorysorter.InventorySorter/]: Slot mapping {[]=InventoryMapping{i=[], c=net.minecraft.world.inventory.ChestMenu@6fac0cae, b=54, e=62}, net.minecraft.world.level.block.entity.ChestBlockEntity@1e57882e=InventoryMapping{i=net.minecraft.world.level.block.entity.ChestBlockEntity@1e57882e, c=net.minecraft.world.inventory.ChestMenu@6fac0cae, b=0, e=26}, []=InventoryMapping{i=[], c=net.minecraft.world.inventory.ChestMenu@6fac0cae, b=27, e=53}}
+[16Dec2024 02:10:52.422] [Server thread/DEBUG] [cpw.mods.inventorysorter.InventorySorter/]: Action slot InventoryMapping{i=net.minecraft.world.level.block.entity.ChestBlockEntity@1e57882e, c=net.minecraft.world.inventory.ChestMenu@6fac0cae, b=0, e=26}
+[16Dec2024 02:13:30.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx was shot by Skeleton
+[16Dec2024 02:13:32.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N was shot by Skeleton
+[16Dec2024 02:14:05.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: J31SS0N fell out of the world
+[16Dec2024 02:14:57.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [J31SS0N: Set own game mode to Creative Mode]
+[16Dec2024 02:15:01.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dargnelx: Set own game mode to Creative Mode]
+[16Dec2024 02:15:22.123] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Skyblock Classic Edition
+[16Dec2024 02:15:22.129] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Skyblock Classic Edition
+[16Dec2024 02:16:33.848] [Server thread/DEBUG] [cpw.mods.inventorysorter.InventorySorter/]: Got action SORT slot 3
+[16Dec2024 02:16:33.849] [Server thread/DEBUG] [cpw.mods.inventorysorter.InventorySorter/]: Slot mapping {net.minecraft.world.level.block.entity.ChestBlockEntity@161b79f9=InventoryMapping{i=net.minecraft.world.level.block.entity.ChestBlockEntity@161b79f9, c=net.minecraft.world.inventory.ChestMenu@6d5b717a, b=0, e=26}, []=InventoryMapping{i=[], c=net.minecraft.world.inventory.ChestMenu@6d5b717a, b=54, e=62}, []=InventoryMapping{i=[], c=net.minecraft.world.inventory.ChestMenu@6d5b717a, b=27, e=53}}
+[16Dec2024 02:16:33.849] [Server thread/DEBUG] [cpw.mods.inventorysorter.InventorySorter/]: Action slot InventoryMapping{i=net.minecraft.world.level.block.entity.ChestBlockEntity@161b79f9, c=net.minecraft.world.inventory.ChestMenu@6d5b717a, b=0, e=26}
+[16Dec2024 02:16:48.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dargnelx has made the advancement [The End?]
+[16Dec2024 02:16:52.236] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dargnelx moved too quickly! -622.0841507637269,0.27602975247834394,-705.96299845309
+[16Dec2024 02:18:04.016] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Endermite['Fix End'/3444, l='ServerLevel[Skyblock Classic Edition]', x=0.50, y=70.00, z=0.50] died: Fix End was slain by J31SS0N
+[16Dec2024 02:18:07.017] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Endermite['Fix End'/3445, l='ServerLevel[Skyblock Classic Edition]', x=0.50, y=70.00, z=0.50] died: Fix End was slain by J31SS0N
+[16Dec2024 02:20:22.126] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save Skyblock Classic Edition
+[16Dec2024 02:20:22.133] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete Skyblock Classic Edition
