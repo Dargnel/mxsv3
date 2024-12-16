@@ -7044,6 +7044,7 @@
       "minecraft:skeleton": "2024-12-01 01:01:05 +0000",
       "minecraft:spider": "2024-12-01 23:10:04 +0000",
       "minecraft:husk": "2024-12-01 01:02:49 +0000",
+      "minecraft:silverfish": "2024-12-16 02:03:41 +0000",
       "minecraft:zombie": "2024-12-16 01:35:30 +0000"
     },
     "done": false
@@ -7057,7 +7058,9 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "bread": "2024-12-01 23:08:26 +0000",
-      "rotten_flesh": "2024-12-01 01:26:22 +0000"
+      "rotten_flesh": "2024-12-01 01:26:22 +0000",
+      "beetroot": "2024-12-16 01:53:13 +0000",
+      "carrot": "2024-12-16 01:53:25 +0000"
     },
     "done": false
   },
@@ -7076,6 +7079,12 @@
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2024-12-02 00:31:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-12-16 02:10:07 +0000"
     },
     "done": true
   },
