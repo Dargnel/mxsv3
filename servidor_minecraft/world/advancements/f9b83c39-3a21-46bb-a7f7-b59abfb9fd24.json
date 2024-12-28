@@ -139,15 +139,23 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_pine_taiga": "2024-12-28 01:25:57 +0000",
       "minecraft:taiga": "2024-12-27 00:30:38 +0000",
       "minecraft:frozen_river": "2024-12-27 01:33:36 +0000",
+      "minecraft:birch_forest": "2024-12-28 04:11:30 +0000",
+      "minecraft:windswept_hills": "2024-12-28 04:15:17 +0000",
+      "minecraft:beach": "2024-12-28 04:07:14 +0000",
       "minecraft:river": "2024-12-28 00:14:32 +0000",
       "minecraft:snowy_plains": "2024-12-27 00:21:25 +0000",
       "minecraft:snowy_taiga": "2024-12-27 00:19:27 +0000",
       "minecraft:swamp": "2024-12-27 01:47:34 +0000",
       "minecraft:forest": "2024-12-28 00:44:17 +0000",
+      "minecraft:lush_caves": "2024-12-28 01:58:14 +0000",
       "minecraft:windswept_forest": "2024-12-27 01:44:37 +0000",
-      "minecraft:old_growth_spruce_taiga": "2024-12-27 01:48:21 +0000"
+      "minecraft:old_growth_spruce_taiga": "2024-12-27 01:48:21 +0000",
+      "minecraft:windswept_savanna": "2024-12-28 04:36:50 +0000",
+      "minecraft:savanna": "2024-12-28 04:37:14 +0000",
+      "minecraft:plains": "2024-12-28 04:18:25 +0000"
     },
     "done": false
   },
@@ -244,8 +252,11 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-12-27 00:42:33 +0000",
+      "minecraft:spider": "2024-12-28 02:05:58 +0000",
+      "minecraft:slime": "2024-12-28 01:08:25 +0000",
       "minecraft:wither_skeleton": "2024-12-27 03:15:57 +0000",
       "minecraft:husk": "2024-12-27 01:09:51 +0000",
+      "minecraft:cave_spider": "2024-12-28 05:46:35 +0000",
       "minecraft:zombie": "2024-12-27 02:29:52 +0000"
     },
     "done": false
@@ -270,15 +281,18 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2024-12-28 03:43:17 +0000",
       "chicken": "2024-12-28 00:06:16 +0000",
       "cooked_mutton": "2024-12-28 00:13:24 +0000",
       "sweet_berries": "2024-12-27 00:51:01 +0000",
       "cooked_beef": "2024-12-28 00:11:42 +0000",
       "porkchop": "2024-12-28 00:17:04 +0000",
       "beetroot_soup": "2024-12-27 00:50:38 +0000",
+      "pumpkin_pie": "2024-12-28 00:51:36 +0000",
       "bread": "2024-12-27 01:11:09 +0000",
       "golden_apple": "2024-12-27 03:46:14 +0000",
-      "golden_carrot": "2024-12-27 04:02:33 +0000"
+      "golden_carrot": "2024-12-27 04:02:33 +0000",
+      "cooked_salmon": "2024-12-28 01:56:02 +0000"
     },
     "done": false
   },
@@ -408,81 +422,21 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "tombstone:adventure/mysterious_gift": {
     "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:02 +0000"
+      "coded_trigger": "2024-12-27 23:57:56 +0000"
     },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:02 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:02 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:02 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:02 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:02 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:02 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:02 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:02 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:02 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:02 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:02 +0000"
-    },
-    "done": false
+    "done": true
   },
   "undead_revamp2:nowyouknow": {
     "criteria": {
       "nowyouknow": "2024-12-28 00:09:30 +0000"
+    },
+    "done": true
+  },
+  "mca:root": {
+    "criteria": {
+      "village_taiga": "2024-12-28 00:19:45 +0000"
     },
     "done": true
   },
@@ -498,15 +452,166 @@
     },
     "done": true
   },
-  "mca:root": {
+  "betterdungeons:all_dungeons": {
     "criteria": {
-      "village_taiga": "2024-12-28 00:19:45 +0000"
+      "in_better_spider_dungeon": "2024-12-28 01:02:29 +0000"
+    },
+    "done": false
+  },
+  "betterdungeons:spider_dungeon": {
+    "criteria": {
+      "in_better_spider_dungeon": "2024-12-28 01:02:29 +0000"
     },
     "done": true
   },
-  "tombstone:adventure/mysterious_gift": {
+  "minecraft:adventure/shoot_arrow": {
     "criteria": {
-      "coded_trigger": "2024-12-27 23:57:56 +0000"
+      "shot_arrow": "2024-12-28 01:10:55 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_small_blimp": {
+    "criteria": {
+      "location0": "2024-12-28 01:29:36 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_voodoo_poppet": {
+    "criteria": {
+      "has_voodoo_poppet": "2024-12-28 01:31:50 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/enchant_voodoo_poppet": {
+    "criteria": {
+      "has_enchanted_voodoo_poppet": "2024-12-28 01:31:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_leggings": "2024-12-28 01:32:17 +0000"
+    },
+    "done": true
+  },
+  "undead_revamp2:nowhowdo_iconfigurethiscrap": {
+    "criteria": {
+      "nowhowdo_iconfigurethiscrap": "2024-12-28 02:10:57 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_magic_scroll": {
+    "criteria": {
+      "has_magic_scroll": "2024-12-28 03:06:28 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_stymphalian_bird": {
+    "criteria": {
+      "killed_fire_dragon": "2024-12-28 04:09:38 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_cyclops": {
+    "criteria": {
+      "killed_fire_dragon": "2024-12-28 04:12:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-12-28 04:23:28 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 06:12:56 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 06:12:56 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 06:12:56 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 06:12:56 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 06:12:56 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 06:12:56 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 06:12:56 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 06:12:56 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 06:12:56 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 06:12:56 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 06:12:56 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 06:12:56 +0000"
+    },
+    "done": false
+  },
+  "quark:get_all_corundum": {
+    "criteria": {
+      "violet": "2024-12-28 04:30:12 +0000",
+      "indigo": "2024-12-28 04:30:50 +0000"
+    },
+    "done": false
+  },
+  "mca:recipes/misc/potions": {
+    "criteria": {
+      "has_item": "2024-12-28 05:59:47 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_ghost": {
+    "criteria": {
+      "killed_fire_dragon": "2024-12-28 04:58:05 +0000"
     },
     "done": true
   },

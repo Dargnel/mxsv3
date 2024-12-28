@@ -141,14 +141,22 @@
     "criteria": {
       "minecraft:taiga": "2024-12-27 00:22:41 +0000",
       "minecraft:frozen_river": "2024-12-27 01:43:45 +0000",
+      "minecraft:birch_forest": "2024-12-28 04:37:40 +0000",
+      "minecraft:windswept_hills": "2024-12-28 04:39:25 +0000",
+      "minecraft:sparse_jungle": "2024-12-28 04:56:05 +0000",
+      "minecraft:river": "2024-12-28 01:53:06 +0000",
       "minecraft:snowy_plains": "2024-12-27 00:21:31 +0000",
       "minecraft:snowy_taiga": "2024-12-27 00:19:31 +0000",
       "minecraft:swamp": "2024-12-27 01:48:10 +0000",
+      "minecraft:forest": "2024-12-28 04:38:15 +0000",
       "minecraft:lush_caves": "2024-12-27 03:00:21 +0000",
       "minecraft:frozen_ocean": "2024-12-28 00:42:19 +0000",
       "minecraft:windswept_forest": "2024-12-27 01:44:35 +0000",
       "minecraft:old_growth_spruce_taiga": "2024-12-27 01:49:07 +0000",
-      "minecraft:snowy_beach": "2024-12-28 00:39:11 +0000"
+      "minecraft:snowy_beach": "2024-12-28 00:39:11 +0000",
+      "minecraft:windswept_savanna": "2024-12-28 04:39:42 +0000",
+      "minecraft:savanna": "2024-12-28 04:41:18 +0000",
+      "minecraft:plains": "2024-12-28 04:40:06 +0000"
     },
     "done": false
   },
@@ -227,6 +235,8 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-12-27 01:02:09 +0000",
+      "minecraft:spider": "2024-12-28 05:53:32 +0000",
+      "minecraft:wither_skeleton": "2024-12-28 02:49:34 +0000",
       "minecraft:husk": "2024-12-27 00:40:59 +0000",
       "minecraft:zombie": "2024-12-27 02:07:15 +0000"
     },
@@ -312,8 +322,10 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2024-12-28 05:59:40 +0000",
       "pumpkin_pie": "2024-12-27 02:26:17 +0000",
       "bread": "2024-12-27 02:06:35 +0000",
+      "cookie": "2024-12-28 02:27:37 +0000",
       "beetroot": "2024-12-27 01:17:41 +0000",
       "golden_carrot": "2024-12-27 02:48:39 +0000",
       "cooked_chicken": "2024-12-27 01:28:57 +0000",
@@ -399,77 +411,149 @@
     },
     "done": true
   },
+  "tombstone:adventure/create_voodoo_poppet": {
+    "criteria": {
+      "has_voodoo_poppet": "2024-12-28 01:16:28 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/enchant_voodoo_poppet": {
+    "criteria": {
+      "has_enchanted_voodoo_poppet": "2024-12-28 01:16:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_leggings": "2024-12-28 01:19:22 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:03 +0000"
+      "log_spam_fixer": "2024-12-28 06:11:56 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:03 +0000"
+      "log_spam_fixer": "2024-12-28 06:11:56 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:03 +0000"
+      "log_spam_fixer": "2024-12-28 06:11:56 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:03 +0000"
+      "log_spam_fixer": "2024-12-28 06:11:56 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:03 +0000"
+      "log_spam_fixer": "2024-12-28 06:11:56 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:03 +0000"
+      "log_spam_fixer": "2024-12-28 06:11:56 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:03 +0000"
+      "log_spam_fixer": "2024-12-28 06:11:56 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:03 +0000"
+      "log_spam_fixer": "2024-12-28 06:11:56 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:03 +0000"
+      "log_spam_fixer": "2024-12-28 06:11:56 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:03 +0000"
+      "log_spam_fixer": "2024-12-28 06:11:56 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:03 +0000"
+      "log_spam_fixer": "2024-12-28 06:11:56 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2024-12-28 00:45:03 +0000"
+      "log_spam_fixer": "2024-12-28 06:11:56 +0000"
     },
     "done": false
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-12-28 04:47:31 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/bone_crusher": {
+    "criteria": {
+      "coded_trigger": "2024-12-28 04:28:36 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/books": {
+    "criteria": {
+      "has_item": "2024-12-28 02:59:22 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/potions": {
+    "criteria": {
+      "has_item": "2024-12-28 04:39:39 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/blueprint": {
+    "criteria": {
+      "has_item": "2024-12-28 02:59:22 +0000"
+    },
+    "done": true
+  },
+  "betterdungeons:all_dungeons": {
+    "criteria": {
+      "in_better_spider_dungeon": "2024-12-28 02:07:29 +0000"
+    },
+    "done": false
+  },
+  "mca:root": {
+    "criteria": {
+      "village_plains": "2024-12-28 04:41:34 +0000"
+    },
+    "done": true
+  },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2024-12-28 03:06:53 +0000"
+    },
+    "done": true
+  },
+  "betterdungeons:spider_dungeon": {
+    "criteria": {
+      "in_better_spider_dungeon": "2024-12-28 02:07:29 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }
