@@ -142,6 +142,7 @@
       "minecraft:old_growth_pine_taiga": "2024-12-28 01:25:57 +0000",
       "minecraft:taiga": "2024-12-27 00:30:38 +0000",
       "minecraft:frozen_river": "2024-12-27 01:33:36 +0000",
+      "minecraft:sunflower_plains": "2024-12-28 19:54:48 +0000",
       "minecraft:birch_forest": "2024-12-28 04:11:30 +0000",
       "minecraft:windswept_hills": "2024-12-28 04:15:17 +0000",
       "minecraft:beach": "2024-12-28 04:07:14 +0000",
@@ -154,6 +155,7 @@
       "minecraft:windswept_forest": "2024-12-27 01:44:37 +0000",
       "minecraft:old_growth_spruce_taiga": "2024-12-27 01:48:21 +0000",
       "minecraft:windswept_savanna": "2024-12-28 04:36:50 +0000",
+      "minecraft:flower_forest": "2024-12-28 19:54:35 +0000",
       "minecraft:savanna": "2024-12-28 04:37:14 +0000",
       "minecraft:plains": "2024-12-28 04:18:25 +0000"
     },
@@ -540,6 +542,84 @@
   "mca:recipes/misc/potions": {
     "criteria": {
       "has_item": "2024-12-28 05:59:47 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 19:57:56 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 19:57:56 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 19:57:56 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 19:57:56 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 19:57:56 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 19:57:56 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 19:57:56 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 19:57:56 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 19:57:56 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 19:57:56 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 19:57:56 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2024-12-28 19:57:56 +0000"
+    },
+    "done": false
+  },
+  "mca:recipes/misc/rose_gold_dust": {
+    "criteria": {
+      "has_item": "2024-12-28 19:55:43 +0000"
     },
     "done": true
   },
