@@ -430,6 +430,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/ambush": {
+    "criteria": {
+      "coded_trigger": "2024-12-28 00:08:58 +0000"
+    },
+    "done": true
+  },
   "tombstone:adventure/mysterious_gift": {
     "criteria": {
       "coded_trigger": "2024-12-27 23:58:05 +0000"

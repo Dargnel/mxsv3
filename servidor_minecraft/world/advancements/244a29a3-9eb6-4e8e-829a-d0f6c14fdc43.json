@@ -385,6 +385,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/kill_ghost": {
+    "criteria": {
+      "killed_fire_dragon": "2024-12-28 00:09:25 +0000"
+    },
+    "done": true
+  },
   "tombstone:adventure/mysterious_gift": {
     "criteria": {
       "coded_trigger": "2024-12-27 23:57:42 +0000"
