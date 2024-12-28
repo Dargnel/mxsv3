@@ -273,6 +273,7 @@
       "cooked_mutton": "2024-12-28 00:13:24 +0000",
       "sweet_berries": "2024-12-27 00:51:01 +0000",
       "cooked_beef": "2024-12-28 00:11:42 +0000",
+      "porkchop": "2024-12-28 00:17:04 +0000",
       "beetroot_soup": "2024-12-27 00:50:38 +0000",
       "bread": "2024-12-27 01:11:09 +0000",
       "golden_apple": "2024-12-27 03:46:14 +0000",
@@ -409,6 +410,24 @@
   "undead_revamp2:nowyouknow": {
     "criteria": {
       "nowyouknow": "2024-12-28 00:09:30 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/books": {
+    "criteria": {
+      "has_item": "2024-12-28 00:20:28 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/blueprint": {
+    "criteria": {
+      "has_item": "2024-12-28 00:20:28 +0000"
+    },
+    "done": true
+  },
+  "mca:root": {
+    "criteria": {
+      "village_taiga": "2024-12-28 00:19:45 +0000"
     },
     "done": true
   },
